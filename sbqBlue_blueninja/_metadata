@@ -1,0 +1,12 @@
+{
+	"version" : "1.0",
+	"tags" : "",
+	"author" : "Blueninja",
+	"description" : "They're here for the Starbecue",
+	"link" : "https://github.com/Zygahedron/Starbecue",
+	"name" : "sbqBlue_blueninja", // the name other mods check for
+	"friendlyName" : "sbqBlue_blueninja", // the string players would see
+	"includes" : [
+		"Starbecue"
+	]
+}
