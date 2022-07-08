@@ -91,9 +91,9 @@
 			},
 			// and jumps can go to any other part of the tree
 			"converse": {
-				"dialogue": ["How can i help you?."],
+				"dialogue": ["How can i help you?"],
 				"options": [
-					["Tell me about yoorself", {
+					["Tell me about yourself", {
 						"dialogue": [
 							"Oh! well i'm a friendly synth boi, with a chill vide and a desire to help others whenever i can, i also like to keep friends close...",
 							"By stuffing them inside me~",
@@ -130,7 +130,7 @@
 						"next": "bellyEffect",
 						"voreType": "oralVore",
 						"default": {
-							"dialogue": ["It's in containment mode, which means it will simple hold you snuggly inside, completer safe to enter~"],
+							"dialogue": ["It's in containment mode, which means it will simple hold you snuggly inside, completely safe to enter~"],
 							"jump": ["converse", "continue"]
 						},
 						"sbqHeal": {
@@ -142,7 +142,7 @@
 							"jump": ["converse", "continue"]
 						},
 						"sbqSoftDigest": {
-							"dialogue": ["It's in suppression mode, that means your body be softened up almost completely inside me, but it won't completely break you down~"],
+							"dialogue": ["It's in suppression mode, that means your body will be softened up almost completely inside me, but it won't completely break you down~"],
 							"jump": ["converse", "continue"]
 						}
 					}]
@@ -164,23 +164,23 @@
 								"request" : {
 									"next" : "doingVore",
 									"before" : { "randomDialogue" : [ "Running NOM_NOM.exe", "I'd thought you'd never ask~", "Looking to 'pilot' the synth, huh?", "How can i refuse a friend like you? get in~" ] },
-									"after" : { "randomDialogue" : [ "Mmmmm... good NOM", "What a tasty friend you are!", "No need to strap in, I've got ya sucured tightly already~", "Oh yes! your filling me up nicely" ] }
+									"after" : { "randomDialogue" : [ "Mmmmm... good NOM", "What a tasty friend you are!", "No need to strap in, I've got ya secured tightly already~", "Oh yes! your filling me up nicely" ] }
 								},
 								"unprompted" : {
 									"next" : "doingVore",
-									"before" : { "randomDialogue" : [ "My sensors show i'm hungry, and you've been assigned to be a snack", "Error! hunger detected, fixing issue~", "Don'y mind me, i'm just having you all to my self~", "You look cold, let me provide you with my warming service, free of charge!" ] },
+									"before" : { "randomDialogue" : [ "My sensors show i'm hungry, and you've been assigned to be a snack", "Error! hunger detected, fixing issue~", "Don't mind me, i'm just having you all to my self~", "You look cold, let me provide you with my warming service, free of charge!" ] },
 									"after" : { "randomDialogue" : [ "Mmmmmmm... good snack~", "Error resolved, getting comfortable~", "All mine, don't worry, i'm a gentle ro-bro~", "Feeling more comfortable yet? i know i am~" ] }
 								},
 								"notFeelingIt" : { "randomDialogue" : [ "I'm updating, ask me later", "Sensors show that my belly does not need a snack, sorry.", "I can't at the moment, systems are going though maintenance", "I'm usually down for a snack, but not at this moment" ] },
 								"full" : {
 									"next" : "getLocationEffect",
 									"default" : { "randomDialogue" : [ "Occupancy at max, sorry", "My belly module was not designed to handle any more, sorry", "I'm at my limits, i'll set a tag for you to be next if ya like", "I would, but systems are almost over loading as is, i just can't" ]},
-									"sbqDigest" : { "randomDialogue" : [ "Fueling engadged: you can have your turn after i'm done with this one", "Urrrrp!\n Won't be too long untill fueling is complete, then you're mine~", "My batteres are almost full from the one i got, but i can squeeze you in after i'm done with them", "I'll have to finish processing this meal first." ]},
+									"sbqDigest" : { "randomDialogue" : [ "Fueling engadged: you can have your turn after i'm done with this one", "Urrrrp!\n Won't be too long until fueling is complete, then you're mine~", "My batteries are almost full from the one i got, but i can squeeze you in after i'm done with them", "I'll have to finish processing this meal first." ]},
 									"sbqSoftDigest" : { "randomDialogue" : [ "Occupancy at max, sorry", "My belly module was not designed to handle any more, sorry", "I'm at my limits, i'll set a tag for you to be next if ya like", "I would, but systems are almost over loading as is, i just can't" ]}
 								},
 								"otherLocationFull" : { "randomDialogue" : [ "I'm a bit too full...", "My body can't stretch any further...", "I've been filled too much already...", "I would... but I'm too full..." ]},
 
-								"tooBig" : { "randomDialogue" : [ "I think you're a bit too big to fit in there...", "I don't think I'd be able to get you in...", "If only you were a bit smaller...", "Thats a bit too much to ask of me..." ]}
+								"tooBig" : { "randomDialogue" : [ "I think you're a bit too big to fit in there...", "I don't think I'd be able to get you in...", "If only you were a bit smaller...", "That's a bit too much to ask of me..." ]}
 							}
 						}
 					}
@@ -251,7 +251,7 @@
 								"request" : {
 									"next" : "doingVore",
 									"before" : { "randomDialogue" : [ "I was just thinking the same thing! 'cum' here~", "So forward! sure, let me show you to your 'private' room~", "Glad i made the mods for my body that allow me to uh, fit you in, so let's get started", "By my calculations: this is gonna be some lewd fun~" ] },
-									"after" : { "randomDialogue" : [ "Aahh~ ooooh thats really good~", "Mmmm~ those are my most sensitive sensors right there~", "ohh~ How's being a cock snack treating ya? i'm sure your loving it~", "A-ahh~ i'm getting overloaded with pleasure from you in there wiggling~" ] }
+									"after" : { "randomDialogue" : [ "Aahh~ ooooh that's really good~", "Mmmm~ those are my most sensitive sensors right there~", "ohh~ How's being a cock snack treating ya? i'm sure your loving it~", "A-ahh~ i'm getting overloaded with pleasure from you in there wiggling~" ] }
 								},
 								"unprompted" : {
 									"next" : "doingVore",
@@ -260,7 +260,7 @@
 								},
 								"notFeelingIt" : { "randomDialogue" : [ "Don't really feel like that right now.", "Not right now.", "I'm not in the mood.", "Eh, maybe later." ] },
 								"full" : { "randomDialogue" : [ "Already got someone plugging my shaft~", "Mmm maybe if someone squirmed a little further in, I might have space for you.", "Hehe, I would if someone wasn't already squeezed in there~", "Maybe after I cum heh~" ] },
-								"tooBig" : { "randomDialogue" : [ "I think you're a bit too big to fit in there...", "I don't think I'd be able to get you in...", "If only you were a bit smaller...", "Thats a bit too much to ask of me..." ]}
+								"tooBig" : { "randomDialogue" : [ "I think you're a bit too big to fit in there...", "I don't think I'd be able to get you in...", "If only you were a bit smaller...", "That's a bit too much to ask of me..." ]}
 							}
 						}
 					}
@@ -305,7 +305,7 @@
 							"next" : "mood",
 							"default" : { // mood
 								"next" : "getLocationEffect",
-								"default" : { "randomDialogue" : [ "Having fun? my insides are purpose built for enjoyment~", "Quite a wiggly one you are, not that i'm complaning~", "my metal stomach is quite strong, so squirm as you please, it won't bother me~" ] },
+								"default" : { "randomDialogue" : [ "Having fun? my insides are purpose built for enjoyment~", "Quite a wiggly one you are, not that i'm complaining~", "my metal stomach is quite strong, so squirm as you please, it won't bother me~" ] },
 								"sbqHeal" : { "randomDialogue" : [ "How is my med-bay-ly, ha! get it?", "All comfort programs are running smoothly, you should feel great~", "I will make sure you're all better, but you can stay even if you are already~" ] },
 								"sbqDigest" : {
 									"next" : "digestImmunity",
@@ -370,11 +370,11 @@
 							"next" : "mood",
 							"default" : { // mood
 								"next" : "getLocationEffect",
-								"default" : { "randomDialogue" : [ "O-oh?! careful! you might slip deeper, unless you want that, then by all means~", "Hot in there? i have to agree with that, it's pretty hot indeed~", "m-man! that feeling of you in ther is just.... great~" ] },
+								"default" : { "randomDialogue" : [ "O-oh?! careful! you might slip deeper, unless you want that, then by all means~", "Hot in there? i have to agree with that, it's pretty hot indeed~", "m-man! that feeling of you in there is just.... great~" ] },
 								"transformed" : { "randomDialogue" : [ ["Heh, I can feel you sloshing around.", "Seems like you're not quite solid anymore."], {"add":"struggle.location.race.personality.mood.locationEffect"} ] },
 								"transform" : {
 									"next" : "transformImmunity",
-									"false" : { "randomDialogue" : [ ["I can feel you getting goopy in there.", "I can feel you tarting to turn~"], {"add":"struggle.location.race.personality.mood.locationEffect"} ] },
+									"false" : { "randomDialogue" : [ ["I can feel you getting goopy in there.", "I can feel you starting to turn~"], {"add":"struggle.location.race.personality.mood.locationEffect"} ] },
 									"true" : { "randomDialogue" : [ {"add":"struggle.location.race.personality.mood.locationEffect"} ] }
 								},
 								"sbqCumDigest" : {
@@ -396,11 +396,11 @@
 							"next" : "mood",
 							"default" : { // mood
 								"next" : "getLocationEffect",
-								"default" : { "randomDialogue" : [ "You having a 'ball' in there? hehe~", "wow! you're going 'nuts' in there! heh~", "It's quite nice feeling you squrim in there, you should 'cum' more often, heh~", "what is it they say? Friends are stored in the balls? i agree~" ] },
+								"default" : { "randomDialogue" : [ "You having a 'ball' in there? hehe~", "wow! you're going 'nuts' in there! heh~", "It's quite nice feeling you squirm in there, you should 'cum' more often, heh~", "what is it they say? Friends are stored in the balls? i agree~" ] },
 								"transformed" : { "randomDialogue" : [ ["Heh, I can feel you sloshing around.", "Seems like you're not quite solid anymore."], {"add":"struggle.location.race.personality.mood.locationEffect"} ] },
 								"transform" : {
 									"next" : "transformImmunity",
-									"false" : { "randomDialogue" : [ ["I can feel you getting goopy in there.", "I can feel you tarting to turn~"], {"add":"struggle.location.race.personality.mood.locationEffect"} ] },
+									"false" : { "randomDialogue" : [ ["I can feel you getting goopy in there.", "I can feel you starting to turn~"], {"add":"struggle.location.race.personality.mood.locationEffect"} ] },
 									"true" : { "randomDialogue" : [ {"add":"struggle.location.race.personality.mood.locationEffect"} ] }
 								},
 								"sbqCumDigest" : {
@@ -465,7 +465,7 @@
 								"default" : { // mood
 									"next" : "getLocationEffect",
 									"default" : { "randomDialogue" : [ "Running regurgitation.exe", "Time to come out, but do come back later tasty friend!", "I need to start updating, and it won't let me till all apps are close, and no prey are inside me", "I've had enough fun with you for now, eat you later~" ] },
-									"sbqHeal" : { "randomDialogue" : [ "You're good to go, somehow though you seem a little sad about it...", "My sensors show green across the board, so we must part for now...", "Restoration complete, would you like a lolypop on your way out?", "There you go! now i hope you don't go and get hurt on purpose just to come back."] },
+									"sbqHeal" : { "randomDialogue" : [ "You're good to go, somehow though you seem a little sad about it...", "My sensors show green across the board, so we must part for now...", "Restoration complete, would you like a lollipop on your way out?", "There you go! now i hope you don't go and get hurt on purpose just to come back."] },
 									"sbqDigest" : {
 										"next" : "digestImmunity",
 										"false" : { "randomDialogue" : [ "Actually... you've probably spent enough time in there.", "My hunger is satiated enough for now.", "Probably best to get you out of there...", "Didn't feel like melting you entirely."] },
@@ -542,7 +542,7 @@
 								"next" : "mood",
 								"default" : { // mood
 									"next" : "getLocationEffect",
-									"default" : { "randomDialogue" : [ "Ahh~ ahh that felt so good~", "Can't stand the heat huh? well when you cool off, your welcome back inside~", "Mmm~ gotta be somewhere? cool, but don't tell them about where you where, unless there're into this sorta thing~", "O-oh! you sliped out, guess i'll be seeing you, cock wiggler~", "Leaving so soon? oh alright, but you better 'cum' back soon, i got more jokes!" ] },
+									"default" : { "randomDialogue" : [ "Ahh~ ahh that felt so good~", "Can't stand the heat huh? well when you cool off, your welcome back inside~", "Mmm~ gotta be somewhere? cool, but don't tell them about where you where, unless there're into this sorta thing~", "O-oh! you slipped out, guess i'll be seeing you, cock wiggler~", "Leaving so soon? oh alright, but you better 'cum' back soon, i got more jokes!" ] },
 									"transformed" : { "randomDialogue" : [ "Heh, now you're a blob of cum~", "Ahhh~ I came~" ] },
 									"transform" : {
 										"next" : "transformImmunity",
@@ -614,10 +614,10 @@
 									"next" : "getLocationEffect",
 									"default" : { "randomDialogue" : [
 										["Mmmm pretty comfortable by my calculations~", "ooh, your belly seems quite suited for my, i'm so snug in here~", {"check":{"bellySounds":true},"add":["Your belly is making the most soothing grumbles to my audio receptors~", "Mmm... I should save this sounds to my memory so i can play them back to sleep to~"]}],
-										{"check":{"predator":"sbqVaporeon"},"add":["Does this mean... you've caught me?", "Interesting body you've got, it's like being sqeezed by a water bed~"]}
+										{"check":{"predator":"sbqVaporeon"},"add":["Does this mean... you've caught me?", "Interesting body you've got, it's like being squeezed by a water bed~"]}
 									]},
 									"sbqHeal" : { "randomDialogue" : [
-										["Ahh... its so soothing.", "I can't believe the power of your healing, mending even my metal parts~", "Comfort at 100%, time left for rapairs.... um, maybe after i'm done taking a nap?", {"check":{"bellySounds":true},"add":["Your belly is making the most soothing grumbles to my audio receptors~", "Mmm... I should save this sounds to my memory so i can play them back to sleep to~"]}],
+										["Ahh... its so soothing.", "I can't believe the power of your healing, mending even my metal parts~", "Comfort at 100%, time left for repairs.... um, maybe after i'm done taking a nap?", {"check":{"bellySounds":true},"add":["Your belly is making the most soothing grumbles to my audio receptors~", "Mmm... I should save this sounds to my memory so i can play them back to sleep to~"]}],
 										{"check":{"predator":"sbqVaporeon"},"add":["The fluid in this stomach is like healing water! and it feels so nice"]}
 									]},
 									"sbqDigest" : {
@@ -682,7 +682,7 @@
 								"next" : "mood",
 								"default" : {
 									"next" : "getLocationEffect",
-									"default" : { "randomDialogue" : [ "This is quite lewd! but i like it~... i'm going to put this thought in a secret file...", "Being stord in here... does this mean we're friends?!~", "When you said to 'hang out', i didn't think you meant this, but i'm not complaning~", "I'm glad to have an advanced cooling system, cause this place is super hot~" ] },
+									"default" : { "randomDialogue" : [ "This is quite lewd! but i like it~... i'm going to put this thought in a secret file...", "Being stored in here... does this mean we're friends?!~", "When you said to 'hang out', i didn't think you meant this, but i'm not complaining~", "I'm glad to have an advanced cooling system, cause this place is super hot~" ] },
 									"transformed" : { "randomDialogue" : [ "O-oh my... I'm just cum now~", "Oooh~ I'm sloshing around in here~", "Now I'm just a load of cum~" ] },
 									"transform" : {
 										"next" : "transformImmunity",
@@ -708,7 +708,7 @@
 								"next" : "mood",
 								"default" : {
 									"next" : "getLocationEffect",
-									"default" : { "randomDialogue" : [ "Ahh~ your putting my pressure resistance to the test with this tightness", "I'm still gonna wiggle like heck, so don't get 'cocky' heh~", "this is so lewd!~ i'm not a toy, even if i look loke one, and enjoy being treated like one~" ] },
+									"default" : { "randomDialogue" : [ "Ahh~ your putting my pressure resistance to the test with this tightness", "I'm still gonna wiggle like heck, so don't get 'cocky' heh~", "this is so lewd!~ i'm not a toy, even if i look like one, and enjoy being treated like one~" ] },
 									"transformed" : { "randomDialogue" : [ "O-oh my... I'm just cum now~", "Oooh~ Are you about to cum me out~?", "Now I'm just a load of cum~" ] },
 									"transform" : {
 										"next" : "transformImmunity",
@@ -788,7 +788,7 @@
 							"default" : { // personality
 								"next" : "mood",
 								"default" : { // mood
-									"randomDialogue" : [ "Hey, why are you drooling like th- AHH!", "You see something tasty? where- MMMPH!", "your in the mood for blueberries?.... wait a minute- MMPH!" ]
+									"randomDialogue" : [ "Hey, why are you drooling like th- AHH!", "You see something tasty? where- MMMPH!", "you're in the mood for blueberries?.... wait a minute- MMPH!" ]
 								}
 							}
 						}
@@ -803,7 +803,7 @@
 							"default" : { // personality
 								"next" : "mood",
 								"default" : { // mood
-									"randomDialogue" : [ "you're going to put me in there?? but i can't fit- MMMPH!", "how lewd! ya can't just- MMMPH" ]
+									"randomDialogue" : [ "you're going to put me in there?? but i can't fit- MMMPH!", "how lewd! you can't just- MMMPH" ]
 								}
 							}
 						}
